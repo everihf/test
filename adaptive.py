@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import Subset, DataLoader
 from .base import BaseTrainer, BaseCL
-
+import torch
 
 
 class Adaptive(BaseCL):
