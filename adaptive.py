@@ -5,6 +5,7 @@ from torch.utils.data import Subset, DataLoader
 from .base import BaseTrainer, BaseCL
 import torch
 import torch
+import numpy as np
 
 
 class Adaptive(BaseCL):
