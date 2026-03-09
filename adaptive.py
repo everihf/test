@@ -6,7 +6,7 @@ from .base import BaseTrainer, BaseCL
 import torch
 import torch
 import numpy as np
-
+#import second
 
 class Adaptive(BaseCL):
     """
